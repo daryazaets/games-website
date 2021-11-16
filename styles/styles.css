@@ -63,3 +63,55 @@
    
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+.main-menu-bar{
+    margin-top: 44px;
+
+}
+
+.main-menu-bar button{
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(235, 235, 245, 0.6);
+
+}
+
+.main-menu-bar li{
+    margin-left: 0;
+    list-style-type: none;
+    margin-top: 32px;
+    align-items: center;
+    font-size: 20px;
+    
+}
+.main-menu-bar button{
+ 
+   
+}
+
+/*
+.main-home{
+    display: flex;
+}
+
+.main-store{
+    display: flex;
+}
+
+.main-library{
+    display: flex;
+}
+
+.main-friends{
+    display: flex;
+}
+
+.main-live{
+    display: flex;
+}*/
