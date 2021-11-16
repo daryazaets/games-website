@@ -6,12 +6,11 @@
 .content {
     width: 1200px;
     margin: 0 auto;
-    
 }
-
+    
 .header-container {
     display: flex;
-  justify-content: space-between;
+    justify-content: space-between;
     user-select: none;
 }
 
@@ -23,8 +22,24 @@
     display: flex;
     align-items: center;
     margin-left: 63px;
+    background-color: transparent;
+}
+
+.header-navigation-menu button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(235, 235, 245, 0.6);
 }
 
 .header-input-search{
     align-items: center;
+}
+
+.search{
+    color: 2F2F2F;
 }
