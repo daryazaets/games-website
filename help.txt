@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B+c</title>
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
+</head>
+
+<body>
+    <!--Подключение шрифтов-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&display=swap" rel="stylesheet">
+    <div class="content">
+        <header>
+            <div class="header-container">
+                <div class="header-logo-image">
+                    <img src="images/logo.svg" alt="logo">
+                </div>
+                <!--    <div class="header-search-button"></div>   -->
+                <div class="header-navigation">
+                    <div class="header-search">
+                        <input class="search" type="text" placeholder="">
+                    </div>
+                    <button class="cart-button"><img src="images/cart.svg" alt="cart"></button>
+                </div>
+            </div>
+            <div class="hero-container">
+                <div class="hero-left-container">
+                    <h1>Body+care</h1>
+                    <h3>The best care cosmetics in your life</h3>
+                </div>
+                <div class="hero-right-container">
+                    <h2>PROTECTOR OF YOUR BEAUTY</h2>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="main-container">
+                <div class="main-logo-image">
+                    <img src="images/logo.svg" alt="logo">
+                </div>
+            </div>
+            <div class="main-image">
+                <div class="image-group">
+                    <div class="main-text-first">
+                        <a class="main-link" href="https://www.google.com/">
+                            <img src="images/image1.jpg" alt=""> 
+                        </a>
+                        <a class="main-button-first" href="https://www.google.com/">&gt</a>
+                        <p class="main-paragraph">The <b>body conditioner</b> is intended to be used after the shower gel. It leaves the skin feeling hydrated and soft, even after rubbing with a towel
+                        </p>
+                    </div>
+                    <div class="main-text-second">
+                        <a class="main-link" href="https://www.google.com/">
+                            <img src="images/image2.jpg" alt="">
+                        </a>
+                        
+                        <a class="main-button-second" href="https://www.google.com/">&gt</a>
+                        <p class="main-paragraph">The <b>body cream</b> provides the skin with moisture, nourishes it, softens and makes it silky. It is necessary for complete skin care and care for the rest of the body.
+                        </p>
+                    </div>
+                    <div class="main-text-third">
+                        <a class="main-link" href="https://www.google.com/">
+                            <img src="images/image3.jpg" alt="">
+                        </a>
+                        <a class="main-button-third" href="https://www.google.com/">&gt</a>
+                        <p class="main-paragraph">The <b>body lotion</b> will help moisturize your skin and relieve flaking. Correctly selected product additionally cares for the body, giving it shine and beauty.
+                        </p>
+                    </div>
+                </div>
+                <div class="main-big-image">
+                    <a class="main-link" href="https://www.google.com/">
+                        <img src="images/image7.jpg" alt="">
+                    </a>
+                    <a class="main-button-shop-now" href="https://www.google.com/">shop now&gt</a>
+                </div>
+            </div>
+        </main>
+
+
+        <footer>
+
+            <div class="footer-container">
+                <div class="footer-logo-image">
+                    <img src="images/logo.svg" alt="logo">
+                </div>
+            </div>
+            <div class="footer">
+                <div class="all-footer-elements">
+                    <div class="footer-left-button">
+                        <button class="footer-left-arrow">&lt</button>
+                    </div>
+                    <div class="footer-images">
+                        <div class="footer-image-first">
+                            <img src="images/image4.jpg" alt="">
+                        </div>
+                        <div class="footer-image-second">
+                            <img src="images/image5.jpg" alt="">
+                        </div>
+                        <div class="footer-image-third">
+                            <img src="images/image6.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="footer-left-button">
+                        <button class="footer-right-arrow">&gt</button>
+                    </div>
+                    <div class="footer-email-information">
+                        <div class="footer-email-text">
+                            <p class="footer-text-over-input">if you want to receive newsletter about new products and events, leave your email:</p>
+                        </div>
+                        <div class="footer-send-block">
+                            <div class="footer-search-class">
+                                <input class="footer-search" type="text" placeholder="    e-mail">
+                            </div>
+                            <button class="footer-send-button" onclick="document.location='https://www.google.com/'">&gt</button>
+                        </div>
+                        <button class="footer-see-offers-button">see offers&gt</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="footer-links">
+                <div class="footer-about-social-media-text ">
+                    <p>You can share your photos in social media with the hashtag #body+care or #bodyCare</p>
+                </div>
+                <div class="footer-links-social-media ">
+                    <div class="footer-instagram ">
+                        <a href="https://www.instagram.com/ ">
+                            <img src="images/instagram.svg " alt=" ">
+                        </a>
+                    </div>
+                    <div class="footer-facebook ">
+                        <a href="https://www.facebook.com/ ">
+                            <img src="images/facebook.svg " alt=" ">
+                        </a>
+                    </div>
+                    <div class="footer-pinterest ">
+                        <a href="https://www.pinterest.com/ ">
+                            <img src="images/pinterets.svg " alt=" ">
+                        </a>
+                    </div>
+                    <div class="footer-twitter ">
+                        <a href="https://twitter.com/ ">
+                            <img src="images/twitter.svg " alt=" ">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-copyright-mark">
+                    <p>© 2021 Zay’s</p>
+                </div>
+            </div>
+        </footer>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
+
+</html>
