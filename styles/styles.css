@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    
+}
+
+.content {
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.header-container {
+    display: flex;
+  justify-content: space-between;
+    user-select: none;
+}
+
+.header-navigation {
+    display: flex;
+}
+
+.header-navigation-menu{
+    display: flex;
+    align-items: center;
+    margin-left: 63px;
+}
+
+.header-input-search{
+    align-items: center;
+}
