@@ -123,6 +123,17 @@ position: fixed;
     color: white;
 }
 
+.main-right-content button{
+    
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+}
 
 
 .main-playfree-button{
@@ -132,9 +143,24 @@ position: fixed;
     cursor: pointer;
     font-family: Montserrat;
     font-style: normal;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 18px;
+    position: relative;
+    border-radius: 5px;
+    background-color: transparent;
+    text-decoration: none;
+    bottom: 8%;
+    left: 13%;
+    transform: translate(-50%, -50%);
     color: white;
+
+    width: 167px;
+height: 56px;
+
+
+background: #0061FD;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+border-radius: 14px;
 }
 /*
 
