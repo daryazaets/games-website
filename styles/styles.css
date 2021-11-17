@@ -35,8 +35,8 @@ position: fixed;
     background-color: transparent;
     border: none;
     cursor: pointer;
-position: relative;
-left: 180px;
+    position: relative;
+    left: 180px;
     font-family: Montserrat;
     font-style: normal;
     font-size: 14px;
@@ -99,7 +99,7 @@ left: 180px;
     
 }
 .main-menu-bar button{
-     margin-bottom: 20px;
+    margin-bottom: 20px;
     width: 48px;
     height: 16px;
     text-align: center;
@@ -116,9 +116,24 @@ left: 180px;
 }
 
 .main-right-content{
-    position: relative;
-    margin-top: 2px;
-    display: flex;
+    margin-top: 50px;
+    margin-left: 30px;
+
+  
+    color: white;
+}
+
+
+
+.main-playfree-button{
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
     color: white;
 }
 /*
@@ -144,6 +159,6 @@ left: 180px;
 }
 */
 
-p{
+.p p{
     margin-top: 1000px;
 }
