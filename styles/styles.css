@@ -183,6 +183,30 @@ position: fixed;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
     
 }
+
+.main-games-on-sale{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    user-select: none;
+    left: 180px
+    
+}
+
+.main-games-on-sale button{
+    position: relative;
+    background-color: transparent;
+ 
+    border-radius: 50%;
+    border: 3 solid white;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+
+   
+    color: white;
+}
+
 /*
 
 .main-home{
