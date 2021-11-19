@@ -4,30 +4,24 @@
 }
 
 .content {
-    width: 1300px;
+    width: 1200px;
     margin: 0 auto;
+}
+header{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
 }
     
 .header-container {
     display: flex;
-    margin-top: 40px;
-    justify-content: space-between;
     user-select: none;
-}
-
-.header-navigation {
-    display: flex;
-    align-items: center;
-}
-
-.header-logo-image{
-position: fixed;
 }
 
 .header-navigation-menu{
     display: flex;
     align-items: center;
-    margin-left: 63px;
+
     background-color: transparent;
 }
 
@@ -36,12 +30,16 @@ position: fixed;
     border: none;
     cursor: pointer;
     position: relative;
-    left: 180px;
+    margin-left: 20px;
     font-family: Montserrat;
     font-style: normal;
     font-size: 14px;
     line-height: 18px;
     color: rgba(235, 235, 245, 0.6);
+}
+
+.header-discover button{
+    margin-left: 130px;
 }
 
 .header-input-search{
@@ -59,7 +57,6 @@ position: fixed;
 .search{
     background: #2F2F2F;
     border-radius: 24px;
-
     width: 318px;
     height: 32px;
     margin-bottom: 10px;
@@ -71,8 +68,8 @@ position: fixed;
 }
 
 .main-menu-bar{
-    margin-top: 40px;
     position: fixed;
+    margin-left: 50px;
 }
 
 .main-menu-bar button{
@@ -85,20 +82,15 @@ position: fixed;
     font-size: 14px;
     line-height: 18px;
     color: rgba(235, 235, 245, 0.6);
-
 }
 
-
 .main-menu-bar a{
-    margin-left: 0;
-    
-    text-align:center;
     margin-top: 32px;
     align-items: center;
     font-size: 35px;
     line-height: 50px;
-    
 }
+
 .main-menu-bar button{
     margin-bottom: 20px;
     width: 48px;
@@ -106,16 +98,20 @@ position: fixed;
     text-align: center;
 }
 
+.main-center-content{
+    display: flex;
+}
+
 .main-center-image{
     position: relative;
     margin-top: 30px;
-    margin-left: 248px;
+    margin-left: 132px;
 }
 
 .main-center-image h1{
     position: relative;
     color: white;
-    bottom: 68%;
+    bottom: 460px;
     left: 54%;
     background-color: transparent;
    
@@ -129,37 +125,11 @@ position: fixed;
 }
 
 .main-center-content{
-    display: flex;
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    justify-content: space-between;
 }
-
-.main-right-content{
-    margin-top: 50px;
-    margin-left: 30px;
- 
-    display: inline-block;
-    
-    color: white;
-}
-
-.main-right-content button{
-    position: relative;
-    /* background: rgb(47, 47, 47); */
-    border: none;
-    cursor: pointer;
-    font-family: Montserrat;
-    font-style: normal;
-    /* font-size: 14px; */
-    line-height: 18px;
-    color: white;
- 
-    left: 48px;
-    bottom: 45px;
-}
-.main-right-content a{
-    height: auto;
-    width: auto;
-}
-
 
 .main-center-image button{
     position: relative;
@@ -175,36 +145,128 @@ position: fixed;
     line-height: 18px;
     border-radius: 14px;
     text-decoration: none;
-    bottom: 8%;
+    bottom: 70px;
     left: 13%;
     transform: translate(-50%, -50%);
     color: white;
     background: #0061FD;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.main-right-content{
+    margin-top: 38px;
+}
+
+.main-right-content div{
+    color: white;  
+    display: flex;
+    margin-left: 15px;
+    margin-bottom: 15px;
     
 }
 
-.main-games-on-sale{
-    display: flex;
+.main-right-content button{
     position: relative;
+    /* background: rgb(47, 47, 47); */
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat;
+    font-style: normal;
+    /* font-size: 14px; */
+    line-height: 18px;
+    color: white;
+    text-align: left;
+    
+    margin-left: 10px;
+}
+
+.main-games-on-sale{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main-games-on-sale{
     justify-content: space-between;
     user-select: none;
-    left: 180px
-    
+}
+
+.main-games-on-sale a{
+    position: relative;
+    margin-left: 130px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Montserrat;
+}
+
+.menu-sale{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .main-games-on-sale button{
     position: relative;
-    background-color: transparent;
- 
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
-    border: 3 solid white;
+    border: 3px solid white;
     cursor: pointer;
     font-size: 18px;
     font-weight: bold;
-
-   
+    background-color: transparent;
     color: white;
+}
+
+.main-right-button{
+    margin-left: 30px; 
+}
+
+.main-games-images{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+
+.valheim-game{
+    margin-left: 130px;
+}
+
+.main-paragraph{
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    color: white;
+}
+
+.main-paragraph-light {
+    margin-top: 15px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(235, 235, 245, 0.6);
+}
+
+.main-paragraph-price{
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    color: white;
+}
+
+.main-price-sale{
+    display: flex;
+    justify-content: space-between;
+}
+
+s{
+    color: rgba(235, 235, 245, 0.6);
 }
 
 /*
