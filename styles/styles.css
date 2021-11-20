@@ -154,12 +154,11 @@ header{
 }
 
 .main-right-content{
-    
+
     margin-top: 30px;
     margin-bottom: 21px;
     background: #fef6ec;
     margin: 10 15 10rem;
-    padding: 10px;
     margin-left: 5px;
     /* counter-reset: article-series-counter; */
     background: #2F2F2F;
@@ -170,8 +169,9 @@ header{
 .main-right-content div{
     color: white;  
     display: flex;
-    margin-left: 15px;
+    margin-top: 13px;
     margin-bottom: 15px;
+    margin-left: 8px;
     background-color: transparent;
     
 }
@@ -187,8 +187,6 @@ header{
     line-height: 18px;
     color: white;
     text-align: left;
-    
-    margin-left: 10px;
 }
 
 .main-games-on-sale{
