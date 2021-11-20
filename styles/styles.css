@@ -21,7 +21,6 @@ header{
 .header-navigation-menu{
     display: flex;
     align-items: center;
-
     background-color: transparent;
 }
 
@@ -63,7 +62,6 @@ header{
     outline: none;
     border: none;
     margin-bottom: 1px;
-   
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -114,9 +112,7 @@ header{
     bottom: 460px;
     left: 54%;
     background-color: transparent;
-   
     font-style: normal;
-   
     font-weight: 800;
     font-size: 26px;
     line-height: 33px;
@@ -136,7 +132,6 @@ header{
     width: 167px;
     height: 56px;
     align-items: center;
-   
     border: none;
     cursor: pointer;
     font-family: Montserrat;
@@ -154,16 +149,13 @@ header{
 }
 
 .main-right-content{
-
     margin-top: 30px;
     margin-bottom: 21px;
     background: #fef6ec;
     margin: 10 15 10rem;
     margin-left: 5px;
-    /* counter-reset: article-series-counter; */
     background: #2F2F2F;
     border-radius: 0px 12px 12px 0px;
-
 }
 
 .main-right-content div{
@@ -173,7 +165,6 @@ header{
     margin-bottom: 15px;
     margin-left: 8px;
     background-color: transparent;
-    
 }
 
 .main-right-content button{
@@ -214,6 +205,10 @@ header{
     justify-content: space-between;
 }
 
+.main-right-content img{
+    border-radius: 3px;
+}
+
 .main-games-on-sale button{
     position: relative;
     width: 32px;
@@ -236,6 +231,10 @@ header{
     margin-top: 20px;
     margin-bottom: 50px;
     justify-content: space-between;
+}
+
+.main-games-on-sale img{
+    border-radius: 9px;
 }
 
 .valheim-game{
@@ -281,33 +280,4 @@ s{
 mark{
     background: #B1DD8B;
     border-radius: 4px;
-    
-}
-
-
-/*
-
-.main-home{
-    display: flex;
-}
-
-.main-store{
-    display: flex;
-}
-
-.main-library{
-    display: flex;
-}
-
-.main-friends{
-    display: flex;
-}
-
-.main-live{
-    display: flex;
-}
-*/
-
-.proba{
-    margin-top: 1000px;
 }
