@@ -262,11 +262,17 @@ header{
 
 .main-price-sale{
     display: flex;
-    gap: 10px;
+    gap: 15px;
 }
 
 s{
     color: rgba(235, 235, 245, 0.6);
+}
+
+mark{
+    background: #B1DD8B;
+    border-radius: 6px;
+    
 }
 
 /*
