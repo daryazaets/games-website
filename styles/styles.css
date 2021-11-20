@@ -65,12 +65,20 @@ header{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.main-menu-bar{
+.menu-bar{
     position: fixed;
     margin-left: 50px;
 }
 
-.main-menu-bar button{
+.bar-menu-logo{
+    margin-bottom: 40px;
+}
+
+.bar-logo-image{
+    margin-left: -5px;
+}
+
+.menu-bar button{
     align-items: center;
     background-color: transparent;
     border: none;
@@ -82,14 +90,14 @@ header{
     color: rgba(235, 235, 245, 0.6);
 }
 
-.main-menu-bar a{
+.menu-bar a{
     margin-top: 32px;
     align-items: center;
     font-size: 35px;
     line-height: 50px;
 }
 
-.main-menu-bar button{
+.menu-bar button{
     margin-bottom: 20px;
     width: 48px;
     height: 16px;
