@@ -154,7 +154,17 @@ header{
 }
 
 .main-right-content{
-    margin-top: 38px;
+    
+    margin-top: 30px;
+    margin-bottom: 21px;
+    background: #fef6ec;
+    margin: 10 15 10rem;
+    padding: 10px;
+    margin-left: 5px;
+    /* counter-reset: article-series-counter; */
+    background: #2F2F2F;
+    border-radius: 0px 12px 12px 0px;
+
 }
 
 .main-right-content div{
@@ -162,12 +172,13 @@ header{
     display: flex;
     margin-left: 15px;
     margin-bottom: 15px;
+    background-color: transparent;
     
 }
 
 .main-right-content button{
     position: relative;
-    /* background: rgb(47, 47, 47); */
+    background: transparent;
     border: none;
     cursor: pointer;
     font-family: Montserrat;
@@ -271,9 +282,10 @@ s{
 
 mark{
     background: #B1DD8B;
-    border-radius: 6px;
+    border-radius: 4px;
     
 }
+
 
 /*
 
