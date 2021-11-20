@@ -262,7 +262,7 @@ header{
 
 .main-price-sale{
     display: flex;
-    justify-content: space-between;
+    gap: 10px;
 }
 
 s{
