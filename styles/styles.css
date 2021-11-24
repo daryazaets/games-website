@@ -74,6 +74,26 @@ header{
     margin-bottom: 40px;
 }
 
+.bar-menu-list{
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.bar-menu-list div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.bar-menu-list button{
+    margin-left: 12px;
+    text-align: left;
+}
+
+.main-home{
+    margin-top: 50px;
+}
+
 .bar-logo-image{
     margin-left: -5px;
 }
@@ -95,13 +115,6 @@ header{
     align-items: center;
     font-size: 35px;
     line-height: 50px;
-}
-
-.menu-bar button{
-    margin-bottom: 20px;
-    width: 48px;
-    height: 16px;
-    text-align: center;
 }
 
 .main-center-content{
