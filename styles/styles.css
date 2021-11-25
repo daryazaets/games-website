@@ -68,6 +68,10 @@ header{
 .menu-bar{
     position: fixed;
     margin-left: 50px;
+    margin-top: 43px;
+    top:0;
+    bottom:0;
+    left:0;
 }
 
 .bar-menu-logo{
@@ -130,12 +134,43 @@ header{
 .main-center-image h1{
     position: relative;
     color: white;
-    bottom: 460px;
+    bottom: 400px;
     left: 54%;
     background-color: transparent;
     font-style: normal;
     font-weight: 800;
     font-size: 26px;
+    line-height: 33px;
+    transform: translate(-50%, -50%);
+    align-items: center;
+}
+
+.main-center-image h2{
+    position: relative;
+    color: white;
+    bottom: 190px;
+    width: 446px;
+    left: 54%;
+    background-color: transparent;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 33px;
+    transform: translate(-50%, -50%);
+    align-items: center;
+}
+
+.main-center-image p{
+    position: relative;
+    color: white;
+    bottom: 200px;
+    left: 54%;
+    background-color: transparent;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
     line-height: 33px;
     transform: translate(-50%, -50%);
     align-items: center;
@@ -161,7 +196,7 @@ header{
     line-height: 18px;
     border-radius: 14px;
     text-decoration: none;
-    bottom: 70px;
+    bottom: 185px;
     left: 13%;
     transform: translate(-50%, -50%);
     color: white;
