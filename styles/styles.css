@@ -18,6 +18,14 @@ header{
     user-select: none;
 }
 
+.header-container button:hover {
+	background: #0061FD;
+	color: white;
+    border-radius: 14px;
+    padding: 3px;
+   
+}
+
 .header-navigation-menu{
     display: flex;
     align-items: center;
@@ -65,6 +73,10 @@ header{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.header-search button:hover{
+    color: white;
+}
+
 .menu-bar{
     position: fixed;
     margin-left: 50px;
@@ -86,12 +98,18 @@ header{
 .bar-menu-list div{
     display: flex;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 }
 
-.bar-menu-list button{
-    margin-left: 12px;
-    text-align: left;
+.bar-menu-list div:hover{
+    background: #2F2F2F;
+	
+    border-radius: 14px;
+    padding: 5px;
+}
+
+.bar-menu-list button:hover{
+    color: white;
 }
 
 .main-home{
@@ -107,6 +125,7 @@ header{
     background-color: transparent;
     border: none;
     cursor: pointer;
+    margin-left: 5px;
     font-family: Montserrat;
     font-style: normal;
     font-size: 14px;
@@ -121,6 +140,10 @@ header{
     line-height: 50px;
 }
 
+.main-downloads{
+    margin-top:135px;
+}
+
 .main-center-content{
     display: flex;
 }
@@ -133,46 +156,45 @@ header{
 
 .main-center-image h1{
     position: relative;
-    color: white;
-    bottom: 400px;
-    left: 54%;
+    color: #EBEBF5;
+    bottom: 420px;
+    left: 30px;
     background-color: transparent;
     font-style: normal;
     font-weight: 800;
     font-size: 26px;
     line-height: 33px;
-    transform: translate(-50%, -50%);
+  
     align-items: center;
 }
 
 .main-center-image h2{
     position: relative;
-    color: white;
-    bottom: 190px;
-    width: 446px;
-    left: 54%;
+    color: #EBEBF5;
+    bottom: 230px;
+   
+    left: 30px;
     background-color: transparent;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 800;
     font-size: 26px;
     line-height: 33px;
-    transform: translate(-50%, -50%);
+ 
     align-items: center;
 }
 
 .main-center-image p{
     position: relative;
-    color: white;
-    bottom: 200px;
-    left: 54%;
+    color: #EBEBF5;
+    bottom: 240px;
+    left: 30px;
     background-color: transparent;
     font-family: Montserrat;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 600;
     font-size: 14px;
-    line-height: 33px;
-    transform: translate(-50%, -50%);
+    line-height: 18px;
     align-items: center;
 }
 
@@ -187,7 +209,6 @@ header{
     position: relative;
     width: 167px;
     height: 56px;
-    align-items: center;
     border: none;
     cursor: pointer;
     font-family: Montserrat;
@@ -196,9 +217,9 @@ header{
     line-height: 18px;
     border-radius: 14px;
     text-decoration: none;
-    bottom: 185px;
-    left: 13%;
-    transform: translate(-50%, -50%);
+    bottom: 200px;
+    left: 30px;
+    
     color: white;
     background: #0061FD;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
@@ -270,12 +291,17 @@ header{
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    border: 3px solid white;
+    border: 3px solid rgba(235, 235, 245, 0.6);
     cursor: pointer;
     font-size: 18px;
     font-weight: bold;
     background-color: transparent;
+    color: rgba(235, 235, 245, 0.6);
+}
+
+.main-games-on-sale button:hover{
     color: white;
+    border-color: white;
 }
 
 .main-right-button{
@@ -293,7 +319,7 @@ header{
     border-radius: 9px;
 }
 
-.valheim-game{
+.main-game-images-first{
     margin-left: 130px;
 }
 
