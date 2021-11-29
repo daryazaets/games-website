@@ -23,7 +23,6 @@ header{
 	color: white;
     border-radius: 14px;
     padding: 3px;
-   
 }
 
 .header-navigation-menu{
@@ -79,11 +78,12 @@ header{
 
 .menu-bar{
     position: fixed;
-    margin-left: 50px;
-    margin-top: 43px;
+    margin-left: 30px;
+    width: 190px;
     top:0;
     bottom:0;
     left:0;
+    border-right: 0.5px solid #38383A;
 }
 
 .bar-menu-logo{
@@ -117,6 +117,7 @@ header{
 
 .bar-logo-image{
     margin-left: -5px;
+    margin-top: 43px;
 }
 
 .menu-bar button{
@@ -145,12 +146,15 @@ header{
 
 .main-center-content{
     display: flex;
+    width: 1200px;
+    height: 500px;
+    margin-left: 250px;
 }
 
 .main-center-image{
     position: relative;
     margin-top: 30px;
-    margin-left: 132px;
+    
 }
 
 .main-center-image h1{
@@ -197,12 +201,6 @@ header{
     align-items: center;
 }
 
-.main-center-content{
-    width: 1200px;
-    height: 500px;
-    margin: 0 auto;
-    justify-content: space-between;
-}
 
 .main-center-image button{
     position: relative;
@@ -224,6 +222,10 @@ header{
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
 }
 
+.main-center-image button:hover{
+    color: black;
+}
+
 .main-right-content{
     margin-top: 30px;
     margin-bottom: 21px;
@@ -239,7 +241,7 @@ header{
     display: flex;
     margin-top: 13px;
     margin-bottom: 15px;
-    margin-left: 8px;
+    margin-left: 5px;
     background-color: transparent;
 }
 
@@ -254,6 +256,11 @@ header{
     line-height: 18px;
     color: white;
     text-align: left;
+}
+
+.main-right-content div:hover{
+    /*text-decoration: underline; */
+    border-bottom: 0.5px solid #FFFFFF;
 }
 
 .main-games-on-sale{
@@ -273,6 +280,10 @@ header{
     text-decoration: none;
     font-size: 16px;
     font-family: Montserrat;
+}
+
+.main-games-on-sale a:hover{
+    text-decoration: underline;
 }
 
 .menu-sale{
@@ -301,6 +312,19 @@ header{
 .main-games-on-sale button:hover{
     color: white;
     border-color: white;
+}
+
+.main-games-on-sale img:hover {
+    box-shadow:
+      1px 1px #2F2F2F,
+      2px 2px #2F2F2F,
+      3px 3px #2F2F2F,
+      4px 4px #2F2F2F,
+      5px 5px #2F2F2F,
+      6px 6px #2F2F2F,
+      7px 7px #2F2F2F;
+    -webkit-transform: translateY(7px);
+    transform: translateY(7px);
 }
 
 .main-right-button{
