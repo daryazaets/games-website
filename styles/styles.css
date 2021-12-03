@@ -52,6 +52,10 @@ header{
     align-items: center;
     display: flex;
 }
+.bell-button img{
+    fill: darkgreen;
+}
+
 
 .header-input-search button{
     background-color: transparent;
@@ -154,7 +158,10 @@ header{
 .main-center-image{
     position: relative;
     margin-top: 30px;
-    
+}
+
+.main-center-image img{
+    box-shadow: -9px -29px 42px -11px #000000 inset;
 }
 
 .main-center-image h1{
@@ -173,9 +180,8 @@ header{
 
 .main-center-image h2{
     position: relative;
-    color: #EBEBF5;
+    width: 60%;
     bottom: 230px;
-   
     left: 30px;
     background-color: transparent;
     font-family: Montserrat;
@@ -183,8 +189,8 @@ header{
     font-weight: 800;
     font-size: 26px;
     line-height: 33px;
- 
     align-items: center;
+    color: #EBEBF5;
 }
 
 .main-center-image p{
@@ -200,7 +206,6 @@ header{
     line-height: 18px;
     align-items: center;
 }
-
 
 .main-center-image button{
     position: relative;
@@ -234,6 +239,7 @@ header{
     margin-left: 5px;
     background: #2F2F2F;
     border-radius: 0px 12px 12px 0px;
+    width: 14%;
 }
 
 .main-right-content div{
@@ -243,6 +249,15 @@ header{
     margin-bottom: 15px;
     margin-left: 5px;
     background-color: transparent;
+}
+
+.main-right-content div:hover{
+    /*text-decoration: underline; */
+    border-bottom: 0.5px solid #FFFFFF;
+}
+
+.main-right-game-content button{
+    width: 40%;
 }
 
 .main-right-content button{
@@ -256,11 +271,7 @@ header{
     line-height: 18px;
     color: white;
     text-align: left;
-}
-
-.main-right-content div:hover{
-    /*text-decoration: underline; */
-    border-bottom: 0.5px solid #FFFFFF;
+    width: 60%;
 }
 
 .main-games-on-sale{
@@ -353,6 +364,10 @@ header{
     font-family: Montserrat;
     font-style: normal;
     color: white;
+}
+
+.main-paragraph:hover{
+    text-decoration: underline;
 }
 
 .main-paragraph-light {
